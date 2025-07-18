@@ -1,1 +1,3 @@
 # EGO-AML24
+
+The Natural Language Query (NLQ) task focuses on identifying temporal segments within a video that correspond to a given query. This project introduces a pipeline that integrates the NLQ task, leveraging VSLNet and VSLBase models, with VideoQA using Video-LLaVA, applied to egocentric videos from the Ego4D dataset. By first isolating relevant video clips through NLQ, the pipeline enables VideoQA models to generate textual answers, overcoming the challenges posed by the length and unstructured nature of egocentric videos. This approach combines the strengths of NLQ for precise temporal localization and VideoQA for producing human-like responses, facilitating intuitive and accurate query-based video understanding.
